@@ -1,4 +1,41 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* header section style start */
+
+.header{
+    background-image: url('images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.header-info{
+    padding: 170px 230px 365px 845px;
+    text-align: right;
+}
+.header-tittle{
+    font-size: 58px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.header-subtittle{
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    line-height: 22px;
+}
+.primary-btn button{
+    padding: 18px 36px;
+    border: 0;
+    border-radius: 5px;
+    background: #F15B22;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+
+   
 }
