@@ -19,7 +19,7 @@
     text-align: right;
 }
 .header-tittle{
-    font-size: 58px;
+    font-size: 40px;
     font-weight: 700;
     margin-bottom: 20px;
 }
@@ -29,13 +29,51 @@
     line-height: 22px;
 }
 .primary-btn button{
-    padding: 18px 36px;
+    padding: 14px 36px;
     border: 0;
     border-radius: 5px;
     background: #F15B22;
     color: #FFFFFF;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 700; 
+}
+/* header section style end */
 
-   
+
+/* mainbody section style start */
+
+.mainbody{
+    width: 100%;
+    background: #FFFFFF;
+}
+
+
+/*  my failures section style start */
+.my-failures{
+    display: flex;
+    gap: 50px;
+    max-width: 1140px;
+    margin: 100px auto;
+    align-items: center;
+}
+.failures-tittle{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+}
+.failures-subtittle{
+    color: #444343;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.failures-list ul li{
+    list-style: none;
+    color: #444343;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.failures-list ul li i{
+    color: #00ffff;
+    margin-right: 12px;
 }
