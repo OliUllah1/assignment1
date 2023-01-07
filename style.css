@@ -4,8 +4,8 @@
     font-family: 'Fira Sans', sans-serif;
 }
 
-/* header section style start */
 
+/* header section style start */
 .header{
     background-image: url('images/banner/banner2.png');
     background-repeat: no-repeat;
@@ -18,20 +18,20 @@
     max-width: 1140px;
     text-align: right;
     margin: 0 auto;
-    padding-top: 200px;
+    padding-top: 170px;
 }
 .header-title{
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 .header-subtitle{
     color: #FFFFFF;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     line-height: 25px;
 }
 .primary-btn button{
-    padding: 16px 36px;
+    padding: 14px 30px;
     border: 0;
     border-radius: 5px;
     background: #F15B22;
@@ -42,12 +42,14 @@
 /* header section style end */
 
 
-/* mainbody section style start */
 
+/* mainbody section style start */
 .mainbody{
     width: 100%;
     background: #FFFFFF;
 }
+/* mainbody section style end */
+
 
 
 /*  my failures section style start */
@@ -79,8 +81,11 @@
     color: #00ffff;
     margin-right: 12px;
 }
+/*  my failures section style end */
 
-/* my plan section start */
+
+
+/* my plan section style start  */
 .my-plan{
     max-width: 1140px;
     margin: 0 auto;
@@ -112,9 +117,11 @@
     color: #737272;
     font-size: 20px;
 }
+/* my plan section style end  */
 
-/* contact section style */
 
+
+/* contact section style start */
 .contact{
     max-width: 1140px;
     margin: 0 auto;
@@ -156,12 +163,14 @@
     background: #FFFFFF;
     color: #F15B22;
 }
+/* contact section style end */
 
 
-/* footer section style */
+
+/* footer section style start*/
 .footer{
     width: 100%;
-    height: 250px;
+    height: 270px;
     background-color: #151414;
     padding: 100px 0;
 }
@@ -223,4 +232,6 @@
     background: #FFFFFF;
     color: #F15B22;
     font-weight: 700;
+    font-size: 18px;
 }
+/* footer section style end*/
